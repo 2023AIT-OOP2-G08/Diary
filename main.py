@@ -1,8 +1,13 @@
 from diaries.DiarySample import DiarySample
 from diaries.UntenDiary import UntenDiary
+from diaries.OdagiriDaiary import OdagiriDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(),UntenDiary() ]#変更箇所
+diaries = [
+    DiarySample(),
+    OdagiriDiary(),
+    UntenDiary(),
+      ]#変更箇所
 
 for d in diaries:
     print("---------------------------------")
