@@ -3,7 +3,6 @@ from diaries.UntenDiary import UntenDiary
 from diaries.OdagiriDiary import OdagiriDiary
 from diaries.ShimizuDialy import ShimizuDiary
 from diaries.KimuraDiary import KimuraDiary
-
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
     DiarySample(),
