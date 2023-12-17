@@ -1,12 +1,19 @@
 from diaries.DiarySample import DiarySample
-from diaries.k22089Diary import k22089Diary
+from diaries.UntenDiary import UntenDiary
 from diaries.OdagiriDiary import OdagiriDiary
+from diaries.ShimizuDialy import ShimizuDiary
+from diaries.KimuraDiary import KimuraDiary
+from diaries.k22089Diary import k22089Diary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
     DiarySample(),
     k22089Diary(),
     OdagiriDiary(),
+    ShimizuDiary(),
+    UntenDiary(),
+    KimuraDiary(),
+    k22089Diary(),
     ]
 
 for d in diaries:
