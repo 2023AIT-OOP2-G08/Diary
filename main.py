@@ -3,7 +3,7 @@ from diaries.UntenDiary import UntenDiary
 from diaries.OdagiriDiary import OdagiriDiary
 from diaries.ShimizuDialy import ShimizuDiary
 from diaries.KimuraDiary import KimuraDiary
-from diaries.k22089Diary import k22089Diary
+from diaries.TsugeDiary import TsugeDiary
 from diaries.SugisitaDiary import SugisitaDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
@@ -13,7 +13,7 @@ diaries = [
     ShimizuDiary(),
     UntenDiary(),
     KimuraDiary(),
-    k22089Diary(),
+    TsugeDiary(),
     SugisitaDiary(),
     ]
 
