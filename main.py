@@ -1,4 +1,3 @@
-
 from diaries.TatsunoDiary import TatsunoDiary
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [TatsunoDiary(),]#変更箇所
